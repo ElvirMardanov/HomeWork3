@@ -15,7 +15,7 @@ namespace CppAndCs
 
         static void Main(string[] args)
         {
-            int[] output1 = new int[4] { 1, 4, 2, 3 };
+            int[] output1 = new int[11] { 1, 4, 2, 3, 7, 9 ,10, 6, 11, 8, 5};
             int output2 = 4;
             qsortRecursive(output1, output2);
             for (int i = 0; i < output1.Length; i++)
