@@ -9,7 +9,7 @@ namespace CppAndCs
 {
     class Program
     {
-        public const string Project1Dll = @"..\..\..\Debug\CppFunctions.dll"; // gставить свой путь к dll
+        public const string Project1Dll = @"..\..\..\Debug\CppFunctions.dll"; // поставить свой путь к dll
         [DllImport(Project1Dll, CallingConvention = CallingConvention.Cdecl)]
         public static extern int qsortRecursive(int[] a, int n);
 
